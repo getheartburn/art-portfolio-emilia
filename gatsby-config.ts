@@ -8,14 +8,14 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-emilia-core/gatsby-config.mjs
-    siteTitle: `Emilia`,
-    siteTitleAlt: `Emilia - Gatsby Starter Portfolio`,
-    siteHeadline: `Emilia - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://emilia.lekoarts.de`,
-    siteDescription: `Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Themeable with Theme UI. Includes Light/Dark mode.`,
+    siteTitle: `Heartburn Prints`,
+    siteTitleAlt: `Heartburn Prints by Jacob Amador`,
+    siteHeadline: `Heartburn Prints`,
+    siteUrl: `https://heartburnprints.com`,
+    siteDescription: `Art portfolio by Heartburn Prints showcasing woodcuts, linocuts, and digital prints.`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
-    author: `@lekoarts_de`,
+    author: `Jacobo`,
   },
   trailingSlash: `never`,
   plugins: [
@@ -23,7 +23,7 @@ const config: GatsbyConfig = {
       resolve: `@lekoarts/gatsby-theme-emilia`,
       // See the theme's README for all available options
       options: {
-        name: 'Amaba Studio',
+        name: 'Heartburn Prints',
         location: 'Houston',
         socialMedia: [{
           href: 'https://www.instagram.com/amajacobo/',
