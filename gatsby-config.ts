@@ -22,7 +22,14 @@ const config: GatsbyConfig = {
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
       // See the theme's README for all available options
-      options: {},
+      options: {
+        name: 'Amaba Studio',
+        location: 'Houston',
+        socialMedia: [{
+          href: 'https://www.instagram.com/amajacobo/',
+          title: 'Instagram'
+        }],
+      },
     },
     {
       resolve: `gatsby-plugin-sitemap`,
