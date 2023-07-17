@@ -40,9 +40,9 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Emilia - @lekoarts/gatsby-theme-emilia`,
-        short_name: `Emilia`,
-        description: `Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Themeable with Theme UI.`,
+        name: `Heartburn Prints`,
+        short_name: `Heartburn`,
+        description: ``,
         start_url: `/`,
         background_color: `#fff`,
         // This will impact how browsers show your PWA/website
