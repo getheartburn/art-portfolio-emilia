@@ -54,6 +54,7 @@ const HeaderProject = ({ title, areas, description = ``, date }: HeaderProjectPr
               textDecoration: `none`,
               svg: {
                 transition: `transform 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955)`,
+                mr: 2
               },
               "&:hover, &:focus": { svg: { transform: `translateX(-6px)` } },
             }}
