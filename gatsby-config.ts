@@ -42,7 +42,7 @@ const config: GatsbyConfig = {
       options: {
         name: `Heartburn Prints`,
         short_name: `Heartburn`,
-        description: ``,
+        description: `Printmaking, Design, Digital Art`,
         start_url: `/`,
         background_color: `#fff`,
         // This will impact how browsers show your PWA/website
